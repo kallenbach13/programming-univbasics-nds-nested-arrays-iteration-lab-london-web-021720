@@ -46,7 +46,5 @@ def total_even_pairs(src)
     end
     row_index += 1
   end
-  even_array
+  even_array << even_array[0] + even_array[-1]
 end
-
-find_greater_pair([[1,2], [5,6], [8,3]])
