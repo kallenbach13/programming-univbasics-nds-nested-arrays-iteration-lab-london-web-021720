@@ -46,6 +46,6 @@ def total_even_pairs(src)
    # end
     row_index += 1
   end
-  even_array = even_array[0] + even_array[-1]
+  # even_array = even_array[0] + even_array[-1]
   even_array
 end
