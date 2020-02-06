@@ -23,9 +23,9 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   row_index = 0
   greater_pair_array = []
-  binding.pry
   while row_index < src.count do
    greater_pair_array = src[row_index][0] + src[row_index][-1]
+   row_index +=
  end
  greater_pair_array
 end
